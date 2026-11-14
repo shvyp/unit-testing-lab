@@ -3,7 +3,7 @@
 **Тема:** Модульное тестирование. Написание, запуск тестов и измерение покрытия.  
 **ФИО:** _[укажите ФИО]_  
 **Группа:** _[укажите группу]_  
-**Репозиторий:** `https://github.com/shvyp/unit-testing-lab` _(после создания и пуша)_
+**Репозиторий:** https://github.com/shvyp/unit-testing-lab
 
 ---
 
@@ -97,10 +97,17 @@ Required test coverage of 85% reached. Total coverage: 100.00%
 ============================== 30 passed in 0.23s ==============================
 ```
 
-> При необходимости вставьте сюда скриншоты:
-> - запуска `pytest -v`
-> - консольного отчёта `pytest --cov=src --cov-report=term-missing`
-> - HTML-отчёта `htmlcov/index.html`
+### Запуск `pytest -v`
+
+![Запуск pytest -v](screenshots/pytest_v.png)
+
+### Консольный отчёт о покрытии (`--cov-report=term-missing`)
+
+![Консольный отчёт о покрытии](screenshots/coverage_term.png)
+
+### HTML-отчёт о покрытии (`htmlcov/index.html`, 100%)
+
+![HTML-отчёт о покрытии](screenshots/coverage_html.png)
 
 ---
 
